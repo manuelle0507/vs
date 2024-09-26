@@ -1,0 +1,63 @@
+.pag-inicial {
+    text-align: center; /*alinha ao centro*/
+}
+
+.botoes img{
+     width: 200 px;
+}
+ 
+.duas-imagens {
+    display:flex;
+
+}
+
+.duas-imagens img{
+    width: 100%;
+}
+.imagem {
+    width: 50%;
+    height: 600px;
+    overflow: hidden; 
+}
+
+.botões a{
+    margin: 10%;
+    background-color: darkred;
+    padding: 10px;
+    margin-top: 20px;
+    color:aliceblue;
+    
+}
+
+.caixa {
+    text-align: center;
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    margin: 0%;
+
+}
+.caixa {
+    display: flex; /*muda a disposição dos elementos na tela*/
+}
+
+.lado esquerdo {
+    width: 65%; /*define o lado esquerdo com 70% da tela*/
+    height: 100%;
+}
+
+.lado-esquerdo img {
+    max-width: 100% /*impede que a imagem fique muito grande*/
+}
+
+.lado-direito {
+    width: 35%; /*define o lado esquerdo com 30% da tela*/
+    padding: 30px; /*espaçamento interno*/
+}
