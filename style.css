@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 .pag-inicial {
     text-align: center; /*alinha ao centro*/
 }
@@ -23,7 +24,7 @@
 }
 
 .botões a{
-    margin: 10%;
+    margin: 12%;
     padding: 20px;
     margin-top: -100px;
     color:aliceblue;
@@ -37,6 +38,12 @@
 
 .caixa {
     text-align: center;
+    background-color: white;
+    border-radius: 5%;
+    margin-top: 10%;
+    width: 20;
+
+
 }
 
 .login {
@@ -46,7 +53,7 @@
 }
 
 body{
-    font-family: "Roboto", sans-serif;
+    font-family: 
     margin: 0%;
 
 }
@@ -66,4 +73,11 @@ body{
 .lado-direito {
     width: 35%; /*define o lado esquerdo com 30% da tela*/
     padding: 30px; /*espaçamento interno*/
+}
+  body.login{
+    background-image: url("Red\ Silk\ Charmeuse\,\ Silk\ Fabric\,\ Fabric\ by\ the\ Yard\,\ Silk\ Charmeuse\ Fabric\,\ Silk\ Satin\ Fabric\ by\ the\ Yard\ \(1\).jpg")
+}
+
+h1{
+    text-align: center;
 }
