@@ -29,7 +29,7 @@
     margin-top: -100px;
     color:aliceblue;
     font-family: "PT Sans", sans-serif;
-    text-shadow: black 0.1em 0.1em 0.8em;
+    text-shadow: white 0.1em 0.1em 0.8em;
     text-decoration: none;
     font-size: 22px;
     
@@ -37,11 +37,7 @@
 }
 
 .caixa {
-    text-align: center;
-    background-color: white;
-    border-radius: 5%;
-    margin-top: 10%;
-    width: 20;
+ 
 
 
 }
@@ -53,7 +49,7 @@
 }
 
 body{
-    font-family: 
+    
     margin: 0%;
 
 }
@@ -61,7 +57,7 @@ body{
     display: flex; /*muda a disposição dos elementos na tela*/
 }
 
-.lado esquerdo {
+.lado-esquerdo {
     width: 65%; /*define o lado esquerdo com 70% da tela*/
     height: 100%;
 }
@@ -71,8 +67,9 @@ body{
 }
 
 .lado-direito {
-    width: 35%; /*define o lado esquerdo com 30% da tela*/
+    filter: drop-shadow(0 0 0.75rem black);
     padding: 30px; /*espaçamento interno*/
+    color:white;
 }
   body.login{
     background-image: url("Red\ Silk\ Charmeuse\,\ Silk\ Fabric\,\ Fabric\ by\ the\ Yard\,\ Silk\ Charmeuse\ Fabric\,\ Silk\ Satin\ Fabric\ by\ the\ Yard\ \(1\).jpg")
